@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    ".CodeMirror": [
+      {
+        "label": "copy-notelink",
+        "command": "copy-notelink-to-clipboard:copy"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Plugins",
+      "submenu": [
+        {
+          "label": "copy-notelink",
+          "submenu": [
+            {
+              "label": "copy",
+              "command": "copy-notelink-to-clipboard:copy"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
